@@ -3,7 +3,7 @@
 def key_for_min_value(name_hash)
   winner = ""
   min = []
-  
+
   if name_hash == {}
     nil
   else
