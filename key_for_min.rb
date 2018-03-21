@@ -3,6 +3,7 @@
 def key_for_min_value(name_hash)
   winner = ""
   min = []
+  
   if name_hash == {}
     nil
   else
@@ -14,8 +15,6 @@ def key_for_min_value(name_hash)
       if val <= new_min
         val = new_min
         winner = obj
-      else
-        winner = nil
       end
     end
     winner
