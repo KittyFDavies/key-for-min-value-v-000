@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   winner = ""
   min = 1
   if name_hash == {}
-    false
+    nil
   else
     name_hash.each do |obj, val|
       if val == min
