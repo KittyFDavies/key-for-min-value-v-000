@@ -3,12 +3,12 @@
 
 def key_for_min_value(name_hash)
   winner = ""
-  min = 1
+  min = 10
   if name_hash == {}
     nil
   else
     name_hash.each do |obj, val|
-      if val == min
+      if val < min
         val = min
         winner = obj
       else
