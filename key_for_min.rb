@@ -7,16 +7,16 @@ def key_for_min_value(name_hash)
   else
     name_hash.collect do |obj, start|
       start
-    end
-    min = start
-    name_hash.each do |obj, val|
-      if val <= min
-        val = min
-        winner = obj
-      else
-        winner = nil
+      min = start
+      name_hash.each do |obj, val|
+        if val <= min
+          val = min
+          winner = obj
+        else
+          winner = nil
+        end
       end
+      winner
     end
-    winner
   end
 end
