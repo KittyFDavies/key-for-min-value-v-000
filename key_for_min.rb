@@ -3,13 +3,13 @@
 
 def key_for_min_value(name_hash)
   winner = ""
-  passengers.each do |obj, val|
-    if suite == :suite_a && name.start_with?("A")
+  name_hash.each do |obj, val|
+    if val < 5
       winner = name
-    else 
+    else
       winner = false
     end
   end
 end
- 
-winner 
+
+winner
