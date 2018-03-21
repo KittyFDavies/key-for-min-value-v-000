@@ -10,6 +10,5 @@ def key_for_min_value(name_hash)
       winner = false
     end
   end
+  winner
 end
-
-winner
