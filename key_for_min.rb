@@ -9,7 +9,6 @@ def key_for_min_value(name_hash)
     name_hash.each do |obj, start|
       min += start
     end
-    min = start
     name_hash.each do |obj, val|
       if val <= min
           val = min
