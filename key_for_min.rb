@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
   name_hash.collect do |obj, start|
     start
   end
-  start
   min = start
   if name_hash == {}
     nil
