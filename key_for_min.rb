@@ -12,9 +12,9 @@ def key_for_min_value(name_hash)
         val = min
         winner = obj
       else
-        winner = false
+        winner = nil
       end
-      winner
     end
+    winner
   end
 end
